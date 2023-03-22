@@ -1,0 +1,49 @@
+table th, td{
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.modal-title{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000;
+}
+
+#trans_comment{
+    width: 100%;
+    margin: 6px 0 0 0;
+    outline: none;
+    border: 1px solid #bfc5cf;
+    border-radius: 6px;
+    padding: 0 15px;
+    height: 130px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 10px;
+    resize: vertical;
+    max-height: 200px;
+    min-height: 50px;
+    color: #010101;
+}
+
+.modal-content button.close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.loadding{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    display: none;
+}
